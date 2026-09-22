@@ -12,4 +12,9 @@ app.get("/status", (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
+});app.get("/status", (req, res) => {
+    res.json({
+        status: "success",
+        message: "CI/CD pipeline deployed successfully"
+    });
 });
