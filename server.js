@@ -15,6 +15,6 @@ app.listen(PORT, () => {
 });app.get("/status", (req, res) => {
     res.json({
         status: "success",
-        message: "CI/CD pipeline deployed successfully"
+        message: "CI/CD pipeline deployed successfully!!!!!"
     });
 });
